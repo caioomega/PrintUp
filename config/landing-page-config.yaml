@@ -1,0 +1,233 @@
+# PROMPT YAML - LANDING PAGE EMPRESA DE SUBLIMAÇÃO
+# Para uso em modelos de IA para criação de páginas web modernas
+
+project:
+  type: "landing_page"
+  industry: "sublimacao_personalizacao"
+  target: "festas_eventos_personalizados"
+  
+company:
+  name: "Print UP"
+  tagline: "Personalize Seus Momentos Especiais"
+  description: "Especialistas em sublimação de copos, taças, baldes e itens personalizados para suas festas inesquecíveis"
+  
+layout:
+  structure:
+    - section: "hero"
+      content: "Banner principal com call-to-action impactante"
+      elements: ["logo", "headline", "subheadline", "cta_button", "hero_image"]
+    
+    - section: "produtos"
+      content: "Showcase dos produtos principais"
+      elements: ["grid_produtos", "hover_effects", "quick_view"]
+    
+    - section: "galeria"
+      content: "Galeria interativa de trabalhos realizados"
+      elements: ["image_carousel", "filter_categories", "lightbox"]
+    
+    - section: "processo"
+      content: "Como funciona o processo de personalização"
+      elements: ["step_by_step", "animated_icons", "timeline"]
+    
+    - section: "testemunhos"
+      content: "Depoimentos de clientes satisfeitos"
+      elements: ["carousel_reviews", "star_ratings", "customer_photos"]
+    
+    - section: "cta_final"
+      content: "Chamada final para orçamento"
+      elements: ["form_orcamento", "whatsapp_button", "urgency_timer"]
+    
+    - section: "footer"
+      content: "Informações de contato e redes sociais"
+      elements: ["contact_info", "social_links", "map"]
+
+style:
+  design_approach: "moderno_premium"
+  
+  color_palette:
+    primary: "#FF6B6B"        # Rosa vibrante
+    secondary: "#4ECDC4"      # Turquesa
+    accent: "#FFE66D"         # Amarelo festivo
+    background: "#FFFFFF"     # Branco limpo
+    dark: "#2C3E50"          # Azul escuro
+    gradient_1: "linear-gradient(135deg, #FF6B6B 0%, #4ECDC4 100%)"
+    gradient_2: "linear-gradient(45deg, #FFE66D 0%, #FF6B6B 100%)"
+  
+  typography:
+    heading_font: "Poppins"
+    body_font: "Inter"
+    accent_font: "Dancing Script"
+    font_weights: [300, 400, 600, 700, 800]
+  
+  layout_style:
+    container_max_width: "1200px"
+    grid_system: "CSS Grid + Flexbox"
+    spacing_scale: [8, 16, 24, 32, 48, 64, 96]
+    border_radius: "12px"
+    shadow_style: "0 10px 30px rgba(0,0,0,0.1)"
+  
+  visual_elements:
+    glass_morphism: true
+    rounded_corners: true
+    soft_shadows: true
+    gradient_overlays: true
+    particle_effects: true
+
+products:
+  categories:
+    - name: "Copos Personalizados"
+      items: ["Copos Acrílicos", "Copos Long Drink", "Copos Térmicos"]
+      
+    - name: "Taças Premium" 
+      items: ["Taças de Gin", "Taças de Vinho", "Taças Champagne"]
+      
+    - name: "Baldes & Acessórios"
+      items: ["Baldes de Gelo", "Baldes Decorativos", "Suportes"]
+      
+    - name: "Kit Festa Completo"
+      items: ["Conjunto Personalizado", "Embalagens Gift", "Brindes"]
+
+images:
+  hero_section:
+    - description: "Festa de aniversário elegante com taças personalizadas douradas, ambiente moderno com luzes suaves"
+    - description: "Mesa de festa com copos long drink coloridos personalizados, decoração tropical vibrante"
+  
+  product_showcase:
+    - description: "Close-up de copo acrílico transparente com sublimação colorida, fundo gradiente moderno"
+    - description: "Set de taças de gin personalizadas com nomes, sobre mesa de mármore com flores"
+    - description: "Balde de gelo metalizado personalizado com logo, ambiente de festa noturna"
+    - description: "Kit festa completo com copos, taças e baldes personalizados, layout organizado"
+  
+  lifestyle_gallery:
+    - description: "Casamento ao ar livre com taças personalizadas dos noivos, ambiente romântico dourado"
+    - description: "Festa de empresa com copos branded, ambiente corporativo moderno e elegante"
+    - description: "Aniversário infantil com copos coloridos personalizados, decoração lúdica"
+    - description: "Confraternização com amigos, copos personalizados com nomes, ambiente descontraído"
+    - description: "Festa de formatura com taças elegantes personalizadas, ambiente sofisticado"
+    - description: "Chá de bebê com itens personalizados em tons pastéis, decoração delicada"
+
+interactions:
+  animations:
+    - type: "fade_in_up"
+      trigger: "scroll"
+      elements: ["sections", "cards", "images"]
+    
+    - type: "hover_scale"
+      trigger: "mouse_over"
+      elements: ["product_cards", "buttons", "images"]
+    
+    - type: "parallax_scroll"
+      trigger: "scroll"
+      elements: ["hero_background", "section_backgrounds"]
+    
+    - type: "typing_effect"
+      trigger: "page_load"
+      elements: ["hero_headline"]
+  
+  interactive_elements:
+    - element: "product_configurator"
+      description: "Ferramenta interativa para personalizar produtos em tempo real"
+    
+    - element: "color_picker"
+      description: "Seletor de cores para visualização de personalizações"
+    
+    - element: "quantity_calculator"
+      description: "Calculadora automática de preços baseada na quantidade"
+    
+    - element: "floating_whatsapp"
+      description: "Botão flutuante do WhatsApp com animação pulsante"
+    
+    - element: "image_before_after"
+      description: "Slider antes/depois mostrando produtos antes e após personalização"
+  
+  micro_interactions:
+    - "Botões com efeito ripple ao clicar"
+    - "Cards que elevam suavemente no hover"
+    - "Loading states animados"
+    - "Progress bars para formulários"
+    - "Transições suaves entre seções"
+
+cta:
+  primary_messages:
+    - "Personalize Já Seu Kit Festa!"
+    - "Orçamento Grátis em 5 Minutos"
+    - "Transforme Sua Festa em Algo Único"
+  
+  secondary_messages:
+    - "Entrega Rápida em Todo Brasil"
+    - "Qualidade Premium Garantida"
+    - "Atendimento Personalizado"
+  
+  urgency_elements:
+    - "Promoção Limitada: 20% OFF"
+    - "Últimas 48h de Desconto"
+    - "Kit Festa Completo por R$ 199"
+  
+  contact_options:
+    - method: "whatsapp"
+      number: "+55 11 99999-9999"
+      message: "Olá! Quero personalizar meus itens de festa 🎉"
+    
+    - method: "form"
+      fields: ["nome", "telefone", "tipo_evento", "quantidade", "prazo"]
+    
+    - method: "email"
+      address: "orcamento@printup.com.br"
+
+technical_requirements:
+  responsiveness: "mobile_first"
+  performance: "lighthouse_90_plus"
+  accessibility: "WCAG_2.1_AA"
+  browser_support: ["Chrome", "Firefox", "Safari", "Edge"]
+  
+  frameworks_suggested:
+    - "HTML5 + CSS3 + JavaScript"
+    - "GSAP para animações"
+    - "AOS (Animate On Scroll)"
+    - "Swiper.js para carousels"
+  
+  optimization:
+    - "Imagens otimizadas WebP"
+    - "Lazy loading"
+    - "CSS crítico inline"
+    - "JavaScript assíncrono"
+
+conversion_strategy:
+  psychological_triggers:
+    - "Prova social através de testemunhos"
+    - "Escassez com ofertas limitadas"
+    - "Autoridade com certificações"
+    - "Reciprocidade com brindes"
+  
+  trust_elements:
+    - "Selos de segurança"
+    - "Garantia de qualidade"
+    - "Política de troca"
+    - "Avaliações reais de clientes"
+  
+  conversion_points:
+    - "Hero section: 30% dos visitantes"
+    - "Galeria de produtos: 25%"
+    - "Testemunhos: 20%"
+    - "CTA final: 25%"
+
+content_guidelines:
+  tone_of_voice: "alegre_confiável_profissional"
+  
+  key_messages:
+    - "Qualidade premium em sublimação"
+    - "Personalização única para cada festa"
+    - "Entrega rápida e confiável"
+    - "Atendimento especializado"
+  
+  emotional_appeal:
+    - "Momentos únicos merecem itens únicos"
+    - "Sua festa, sua personalidade"
+    - "Lembranças que ficam para sempre"
+    - "Surpreenda seus convidados"
+
+seo_metadata:
+  title: "Print UP | Sublimação Personalizada para Festas | Copos, Taças & Baldes"
+  description: "Personalize copos, taças e baldes para suas festas. Sublimação premium, entrega rápida. Orçamento grátis!"
+  keywords: ["sublimação", "copos personalizados", "taças personalizadas", "festa", "personalização"]
+  og_image: "hero_festa_personalizada.jpg"
